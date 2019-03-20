@@ -25,7 +25,7 @@ studentRouter.route('/')
         Students.create(req.body)
             .then((student) =>
             {
-                console.log('Student Added ', student);
+                console.log('Student Added ');
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
                 res.json(student);

@@ -6,7 +6,7 @@ var studentSchema = new Schema({
         type: String,
         required: true
     },
-    stuID: {
+    _id: {
         type: String,
         required: true,
         unique: true
