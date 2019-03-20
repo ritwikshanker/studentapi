@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4dab43-289b-4fb2-ab5e-a2b79c0e11e0" name="Default Changelist" comment="" />
+    <list default="true" id="3a4dab43-289b-4fb2-ab5e-a2b79c0e11e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,11 +26,7 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -39,6 +37,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,6 +60,7 @@
     <option name="width" value="1939" />
     <option name="height" value="1049" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -70,11 +72,6 @@
             <path>
               <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudentAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudentAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,16 +113,15 @@
       <updated>1552890135903</updated>
       <workItem from="1552890146077" duration="1074000" />
       <workItem from="1552916432311" duration="3284000" />
-      <workItem from="1553080936121" duration="1526000" />
+      <workItem from="1553080936121" duration="2131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5884000" />
+    <option name="totallyTimeSpent" value="6489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1579643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -226,11 +222,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
