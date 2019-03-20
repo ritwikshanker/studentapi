@@ -6,6 +6,8 @@ const Students = require('../models/students');
 
 const studentRouter = express.Router();
 
+mongoose.set('useFindAndModify', false);
+
 studentRouter.use(bodyParser.json());
 
 studentRouter.route('/')
@@ -25,7 +27,7 @@ studentRouter.route('/')
         Students.create(req.body)
             .then((student) =>
             {
-                console.log('Student Added ');
+                console.log('Student Added ', student);
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
                 res.json(student);
@@ -49,10 +51,10 @@ studentRouter.route('/')
             .catch((err) => next(err));
     });
 
-studentRouter.route('/:stuId')
+studentRouter.route('/:stuID')
     .get((req, res, next) =>
     {
-        Students.findById(req.params.stuId)
+        Students.findOne({stuID: req.params.stuID})
             .then((student) =>
             {
                 res.statusCode = 200;
@@ -64,11 +66,11 @@ studentRouter.route('/:stuId')
     .post((req, res, next) =>
     {
         res.statusCode = 403;
-        res.end('POST operation not supported on /students/' + req.params.stuId);
+        res.end('POST operation not supported on /students/' + req.params.stuID);
     })
     .put((req, res, next) =>
     {
-        Students.findByIdAndUpdate(req.params.stuId, {
+        Students.findOneAndUpdate({stuID: req.params.stuID}, {
             $set: req.body
         }, {new: true})
             .then((student) =>
@@ -81,7 +83,7 @@ studentRouter.route('/:stuId')
     })
     .delete((req, res, next) =>
     {
-        Students.findByIdAndRemove(req.params.stuId)
+        Students.findOneAndDelete({stuID: req.params.stuID})
             .then((resp) =>
             {
                 res.statusCode = 200;

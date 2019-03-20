@@ -2,25 +2,25 @@
   "students": [
     {
       "name": "Ritwik",
-      "_id": "161B180",
+      "stuID": "161B180",
       "batch": "BY",
       "year": "3rd"
     },
     {
       "name": "Bhanu",
-      "_id": "161B065",
+      "stuID": "161B065",
       "batch": "BX",
       "year": "3rd"
     },
     {
       "name": "Sparsh",
-      "_id": "161B237",
+      "stuID": "161B237",
       "batch": "BZ",
       "year": "3rd"
     },
     {
       "name": "Prakhar",
-      "_id": "171B040",
+      "stuID": "171B040",
       "batch": "BX",
       "year": "2nd"
     }
